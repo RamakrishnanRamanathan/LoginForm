@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body class="max-w-lg bg-redPalatte m-auto  mt-20 p-10  ">
+    <div class="bg-white p-10 border rounded space-y-4 text-center">
+        <div class="text-xl">Signup</div>
+      
+            <form>
+                <input type="email" id="signUpEmail" placeholder="Email"  class="form_function" required/>
+                <input type="text" id="createPassword" placeholder="Create Password" class="form_function" />
+                <input type="password" id="confirmPassword" placeholder="Re-enter password" class="form_function" />
+                <button class="signup_btn" id="signUpBtn">Signup</button>
+            
+           
+        </form>
+       
+        <div class="text-sm">
+            Already have an account?<a href="index.html" class="text-blue-800"> Login</a>
+        </div>
+
+        <div>
+            or
+        </div>
+        <div class="flex items-center justify-between pr-28 px-4 border rounded bg-blue-700 hover:bg-blue-600 cursor-pointer text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                <path
+                    d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"
+                    class="fill-current" />
+            </svg>
+            <a href="https://www.facebook.com"> Login with facebook</a>
+        </div>
+        <div class="flex items-center justify-between pr-28 px-4 border rounded  bg-gray-200 text-gray-500 py-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512">
+                <path
+                    d="m473.16 221.48l-2.26-9.59H262.46v88.22H387c-12.93 61.4-72.93 93.72-121.94 93.72c-35.66 0-73.25-15-98.13-39.11a140.08 140.08 0 0 1-41.8-98.88c0-37.16 16.7-74.33 41-98.78s61-38.13 97.49-38.13c41.79 0 71.74 22.19 82.94 32.31l62.69-62.36C390.86 72.72 340.34 32 261.6 32c-60.75 0-119 23.27-161.58 65.71C58 139.5 36.25 199.93 36.25 256s20.58 113.48 61.3 155.6c43.51 44.92 105.13 68.4 168.58 68.4c57.73 0 112.45-22.62 151.45-63.66c38.34-40.4 58.17-96.3 58.17-154.9c0-24.67-2.48-39.32-2.59-39.96"
+                    class="fill-current" />
+            </svg>
+            <a href="https://www.google.com">Login with google </a>
+        </div>
+    </div>
+<script src="./assets/js/secondary.js"></script>
+</body>
+
+</html>

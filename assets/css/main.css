@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form_function {
+  @apply border w-full rounded px-2 py-1 cursor-pointer outline-none text-sm hover:bg-gray-300 border-slate-300 mb-3;
+}
+.signup_btn {
+  @apply border w-full rounded px-2 py-1 cursor-pointer outline-none text-sm bg-blue-800 hover:bg-blue-600 border-slate-300 mb-3;
+}
